@@ -10,14 +10,14 @@ func main() {
 	b := 16
 
 	x := (a == b)
-	fmt.Println(x)
+	fmt.Printf("%v == %v: %v\n", a, b, x)
 
 	y := (a != b)
-	fmt.Println(y)
+	fmt.Printf("%v != %v: %v\n", a, b, y)
 
 	z := (a < b)
-	fmt.Println(z)
+	fmt.Printf("%v < %v: %v\n", a, b, z)
 
 	w := (a > b)
-	fmt.Println(w)
+	fmt.Printf("%v > %v: %v", a, b, w)
 }
