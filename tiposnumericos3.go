@@ -10,6 +10,6 @@ func main() {
 	//exibe o sistema operacional
 	fmt.Println(runtime.GOOS)
 
-	//exibe o processador
+	//exibe quantos bits tem o processador
 	fmt.Println(runtime.GOARCH)
 }
