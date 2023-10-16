@@ -13,6 +13,6 @@ func main() {
 	//binário decimal e hexadecimal
 	fmt.Printf("%b\t\t", a)
 	fmt.Printf("%d\t\t", a)
-	fmt.Printf("%X\t\t", a)
+	fmt.Printf("%#x\t\t", a)
 
 }
