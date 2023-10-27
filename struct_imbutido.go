@@ -30,5 +30,6 @@ func main() {
 		titulo:  "Pizzaiola",
 		salario: 10000,
 	}
-	fmt.Println(pessoa1, "\n", pessoa2)
+
+	fmt.Println(pessoa1, "\n", pessoa2.titulo)
 }
