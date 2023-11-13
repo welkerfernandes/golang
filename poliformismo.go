@@ -27,7 +27,7 @@ func (x dentista) oibomdia() {
 }
 
 func (x arquiteto) oibomdia() {
-	fmt.Println("Meu nome é", x.nome, "Faço constuções do tuipo", x.tipo_de_construcao, " e minha maior obra é ", x.tamanho_da_loucura)
+	fmt.Println("Meu nome é", x.nome, "Faço constuções do tipo", x.tipo_de_construcao, " e minha maior obra é ", x.tamanho_da_loucura)
 }
 
 type gente interface {
@@ -41,18 +41,18 @@ func serhumano(g gente) {
 func main() {
 	mrpredio := arquiteto{
 		pessoa: pessoa{
-			nome:      "Daniela",
-			sobrenome: "Abrenhosa",
+			nome:      "Josefina",
+			sobrenome: "Do Carmo",
 			idade:     29,
 		},
 		tipo_de_construcao: "Prédios",
-		tamanho_da_loucura: "Prédio transfersal",
+		tamanho_da_loucura: "Prédio transversal",
 	}
 
 	mrdente := dentista{
 		pessoa: pessoa{
-			nome:      "Welker",
-			sobrenome: "Fernandes",
+			nome:      "Afonso",
+			sobrenome: "Padilha",
 			idade:     31,
 		},
 		dentes_arrancados: 7864,
@@ -64,4 +64,5 @@ func main() {
 
 	serhumano(mrdente)
 	serhumano(mrpredio)
+
 } //fim do main
